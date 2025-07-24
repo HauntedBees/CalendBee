@@ -1,0 +1,28 @@
+{
+  "name": "calendar-notes",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build --base=/calendbee/",
+    "preview": "vite preview",
+    "check": "svelte-check --tsconfig ./tsconfig.app.json && tsc -p tsconfig.node.json"
+  },
+  "devDependencies": {
+    "@sveltejs/vite-plugin-svelte": "^6.0.0",
+    "@tsconfig/svelte": "^5.0.4",
+    "svelte": "^5.35.5",
+    "svelte-check": "^4.2.2",
+    "typescript": "~5.8.3",
+    "vite": "^7.0.4"
+  },
+  "dependencies": {
+    "bulma": "^1.0.4",
+    "dayjs": "^1.11.13",
+    "dexie": "^4.0.11",
+    "sass-embedded": "^1.89.2",
+    "svelte-material-icons": "^3.0.5",
+    "svelte-mini-router": "^1.0.4"
+  }
+}
